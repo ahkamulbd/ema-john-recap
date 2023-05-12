@@ -4,7 +4,11 @@
 }
 
 .product-container {
-    background-color: antiquewhite;
+    margin: 50px;
+    /* background-color: rgb(54, 202, 145); */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .cart-container {
